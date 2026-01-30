@@ -30,11 +30,11 @@
 
 二者的关系为
 
-![relation1](.\assets\image-20260130104448452.png)
+![relation1](assets/image-20260130104448452.png)
 
 
 
-![relation2](.\assets\image-20260130104529396.png)
+![relation2](assets/image-20260130104529396.png)
 
 3.Makefile文件中
 
@@ -52,6 +52,6 @@
 
 正常工作时
 
-![running](.\assets\image-20260130105651003.png)
+![running](assets/image-20260130105651003.png)
 
 如果报错优先检查设备树上引脚是不是被占用，其他情况根据具体报错内容修改，驱动文件应该没有问题。
