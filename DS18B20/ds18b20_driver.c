@@ -302,6 +302,7 @@ static int ds18b20_remove(struct platform_device *pdev)
     class_destroy(ds18b20_dev.class);
     cdev_del(&ds18b20_dev.cdev);
     unregister_chrdev_region(ds18b20_dev.devid, 1);
+    gpio_free(ds18b20_dev.ds18b20_gpio);
     printk("ds18b20 driver removed!\n");
     return 0;
 }
